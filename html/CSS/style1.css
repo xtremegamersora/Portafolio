@@ -1,0 +1,29 @@
+/* Fuente importada al formulario */
+
+@import url('https://fonts.cdnfonts.com/css/netigen');              
+
+/* Color de fondo página web formulario contacto */
+body{
+    background-color: beige;
+}
+
+/* Filas y columnas formulario contacto */
+.grid{
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-template-rows: 20% 20% 20% 20% 20%;
+}
+
+/* Margen de las cajas */
+
+.caja{
+    padding: 10px;
+}
+
+/* Configuración de la fuente */
+h1{
+    text-align: center;
+    font-size: 30px;
+    font-family: 'Netigen Regular', sans-serif;
+}
+

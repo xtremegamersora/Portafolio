@@ -1,0 +1,65 @@
+body{
+    background-color: red;
+    font-size: 20px;
+    text-align: justify;
+}
+
+.grid{
+    display: grid;
+    max-width: 640px;
+    margin: 0 auto;
+    grid-template-columns: auto;
+    align-items: center;
+}
+
+p{
+    margin: 0px;
+    padding: 0px;
+}
+
+.caja{
+    border-style: solid;
+    border-color: chartreuse;
+    grid-column: 1 / span 2;
+    grid-row: 1;
+}
+
+.caja1{
+    grid-row: 2;
+    border-color: chartreuse;
+    border-style: solid;
+}
+
+.caja2{
+    grid-row: 2;
+    text-align: right;
+    vertical-align: bottom;
+    border-color: chartreuse;
+    border-style: solid;
+}
+
+.caja3{
+    grid-row: 2;
+    vertical-align: bottom;
+    border-color: chartreuse;
+    border-style: solid;
+}
+
+.caja4{
+    padding-left: 300px;
+}
+
+.caja5{
+    padding-left: 300px;
+}
+
+h1{
+    text-align: center;
+}
+
+h2{
+    text-align: center;
+}
+
+
+

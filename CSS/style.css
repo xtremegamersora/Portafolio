@@ -1,0 +1,186 @@
+/* Se importa fuente y se coge online */
+@import url('https://fonts.cdnfonts.com/css/maxmillion');               
+@font-face {
+    font-family: "Maxmillion', sans-serif";
+    src: url("fuentes/MaxmillionIkiikocom-51ndZ.otf") format("truetype");
+} 
+/* Configuración de toda la página
+su ancho, los bordes, la imagen de
+fondo de todo el documento, color 
+y posición de la imagen y que no 
+se repita */
+
+body{
+    max-width: 600px;
+    margin: 0 auto;
+    border-collapse: collapse;
+    background-image: url(/IMG/35001605_959890040852557_7108882293262909440_n.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-color: rgb(169, 167, 167);
+}
+
+/* El encabezado tiene un sticky para que venga
+acompañado*/
+
+header{
+    position: sticky;
+    top: 0;
+    padding: 10px;
+    font-size: 20px;
+}
+
+/* Se quita el subrayado de los enlaces */
+.subrayado{
+    text-decoration: none;
+    color: orange;
+    font-size: 30px;
+    font-family: 'Maxmillion', sans-serif;
+                                                
+}
+
+.flex{
+    display: flex;
+}
+
+/* Se separan los elementos de las filas */
+.flex > article{
+    margin: 20px;
+    padding: 10px;
+    background-color: red; 
+}
+
+.flex1{
+    display: flex;
+    justify-content: center;
+}
+
+.flex1 > div{
+    margin: 20px;
+    padding: 10px;
+}
+
+.flex2{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+/* Se aplican los fuentes y los colores */
+h1{
+    color: rgb(134, 130, 130);
+    font-family: 'Maxmillion', sans-serif;
+}
+
+h2{
+    color: rgb(114, 29, 29);
+    font-size: 30px;
+    font-family: 'Maxmillion', sans-serif;
+}
+
+h3{
+    color: orange;
+    font-family: 'Maxmillion', sans-serif;
+}
+
+h4{
+    text-align: center;
+    font-size: 70px;
+    font-family: 'Maxmillion', sans-serif;
+}
+
+h5{
+    font-size: 30px;
+    text-align: center;
+    font-family: 'Maxmillion', sans-serif;
+}
+
+h6{
+    color: black;
+    text-align: center;
+    font-size: 20px;
+    font-family: 'Maxmillion', sans-serif;
+}
+
+h10{
+    color: rgb(255, 111, 0);
+    font-size: 30px;
+    font-family: 'Maxmillion', sans-serif;
+}
+
+h11{
+    color: black;
+    text-align: center;
+    font-size: 15px;
+    font-family: 'Maxmillion', sans-serif;
+    font-weight: bold;
+}
+
+/* Se aplica imagen de fondo */
+
+.imagenfondo{
+    background-image: url(/IMG/1.png);
+    background-repeat: no-repeat;
+
+}
+
+
+/* El boton con su diseño */
+.button{
+  background-color: red;
+  border-style: solid;
+  border-color: black;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+
+/* Diseño de columnas y filas */
+.grid{
+    display: grid;
+    grid-template-columns: 20% 80;
+    grid-template-rows: auto auto auto auto;
+    border-style: solid;
+    background-color: burlywood;
+    background-image: url(/IMG/2.png);
+    background-repeat: no-repeat;
+}
+
+.grid1{
+    display: grid;
+    grid-template-columns: 35% 35% 35%;
+    grid-template-rows: auto auto auto auto;
+}
+
+/* Caja con movimiento */
+.caja1:hover{
+    padding: 30px;
+    transform:translateY(-10px);
+	transition: width 2s, height 2s, transform 2s;
+}
+
+/* Caja con cambio de color a amarillo*/
+a:hover{
+    background-color: yellow;
+}
+
+#rcorners1 {
+    border-radius: 25px;
+    background: rgb(136, 220, 19);
+    padding: 20px; 
+    width: 40px;
+    height: 40px; 
+    margin: 50px;
+    text-align: center;
+  }
+
+
+
+
+
+
+
